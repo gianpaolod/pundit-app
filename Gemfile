@@ -34,7 +34,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 gem 'jquery-rails'
-gem 'devise'
+gem 'devise', :git => 'https://github.com/plataformatec/devise'
 gem 'auto_html'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'faker'
@@ -46,7 +46,6 @@ gem 'bourbon'
 gem 'neat'
 gem 'refills'
 gem 'normalize-rails'
-
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
