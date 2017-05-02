@@ -42,8 +42,8 @@ gem 'pundit'
 
 # design
 gem 'font-awesome-rails'
-gem 'bourbon'
-gem 'neat'
+gem 'bourbon', '4.2.3'
+gem 'neat', '1.7.2'
 gem 'refills'
 gem 'normalize-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
