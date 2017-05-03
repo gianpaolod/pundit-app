@@ -39,6 +39,7 @@ gem 'auto_html'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'faker'
 gem 'pundit'
+gem 'hirb'
 
 # design
 gem 'font-awesome-rails'
