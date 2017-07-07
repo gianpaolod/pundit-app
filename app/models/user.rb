@@ -1,5 +1,7 @@
 class User < ApplicationRecord
   
+  has_one :profile
+  
   enum role: [:user, :editor, :admin]
   after_initialize :set_default_role, :if => :new_record?
   
